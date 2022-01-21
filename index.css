@@ -1,0 +1,60 @@
+/* Write your code here. */
+.bgContainer {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: "Roboto";
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+}
+
+.notification-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 4px;
+  margin-bottom: 32px;
+  padding-top: 12px;
+  padding-right: 8px;
+  padding-bottom: 12px;
+  padding-left: 18px;
+}
+.primary-bg-color {
+  background-color: #0b69ff;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+}
+
+.message {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.success-bg-color {
+  background-color: #2dca73;
+}
+
+.warning-bg-color {
+  background-color: #ffb800;
+}
+
+.danger-bg-color {
+  background-color: #ff0b37;
+}
